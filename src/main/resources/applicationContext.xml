@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+   
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+              
+            <bean id="test"   class="com.AQ.SpringBoot2.DTO.Test">
+                <constructor-arg value="1"     type="int"></constructor-arg>
+                <constructor-arg value="Anita"  type="String"></constructor-arg>
+                <constructor-arg value="Bangalore"       type="String"></constructor-arg>
+                <constructor-arg value="anita12@gmail.com"  type="String"></constructor-arg>
+           </bean>
+           
+           <bean id="detail"  class="com.AQ.SpringBoot2.DTO.Test">
+            <constructor-arg value="2" type="int"></constructor-arg>
+            <constructor-arg value="Pooja" type="String"></constructor-arg>
+            <constructor-arg value="Raichur" type="String"></constructor-arg>
+            <constructor-arg value="pooja12@gmail.com" type="String"></constructor-arg>
+           
+           </bean>
+           
+           <bean id="test3"  class="com.AQ.SpringBoot2.DTO.Test">
+          <constructor-arg value="3"  type="int"></constructor-arg>
+          <constructor-arg value="Rajani" type="String"></constructor-arg>
+          <constructor-arg value="Gadag" type="String"></constructor-arg>
+          <constructor-arg value="rajani34@gmail.com" type="String"></constructor-arg>
+          
+           
+           </bean>
+</beans>
